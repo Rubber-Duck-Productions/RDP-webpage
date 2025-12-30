@@ -22,3 +22,10 @@ def login():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+<div class = "title"><h1>Welcome Page</h1></div>
+<form class = "input"  action = "http://localhost:5000/login" method = "post">
+<p>name:</p>
+<p><input type = "text" name = "nm" /></p>
+<p><input type = "submit" value = "submit" /></p>

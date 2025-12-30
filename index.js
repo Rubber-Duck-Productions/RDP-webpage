@@ -18,5 +18,3 @@ window.onclick = function (event)
 
 
 
-
-
